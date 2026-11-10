@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Symlink taste-skill skills into agent skill directories.
 #
-# Unlike `npx skills add`, this links instead of copying, so `git pull`
-# updates every installed skill in place. Install names are read from each
-# SKILL.md frontmatter, so new upstream skills are picked up automatically.
+# Unlike `npx skills add`, this links instead of copying, so a submodule bump
+# changes every linked skill in place; review before bumping. Install names
+# are read from each SKILL.md frontmatter.
 #
 #   ./install.sh                          # link all skills into Claude Code
 #   ./install.sh --codex                  # ... into Codex instead
