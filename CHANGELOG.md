@@ -1,5 +1,7 @@
 # Changelog
 
+> In this fork's hardened branch, taste-skill-v1, taste-skill-v2-experimental, output-skill, gpt-tasteskill and .agents/plugins/ are removed. Entries below describe upstream. Do not run install commands from this file.
+
 All notable changes to taste-skill live here. The repo follows SemVer-ish discipline: experimental pre-releases iterate freely; stable releases lock the API.
 
 ---
